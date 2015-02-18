@@ -1,0 +1,14 @@
+{% load compress %}
+{% load staticfiles %}
+
+{% compress css %}
+<link rel="stylesheet" type="text/css" href="{% static 'foundation/css/foundation.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'foundation/css/foundation.min.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'foundation/css/normalize.css' %}" />
+
+<link rel="stylesheet" type="text/css" href="{% static 'bower_components/ngDialog/css/ngDialog.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'bower_components/ngDialog/css/ngDialog-theme-default.css' %}" />
+
+
+<link rel="stylesheet" type="text/css" href="{% static 'stylesheets/styles.css' %}" />
+{% endcompress %}
